@@ -44,6 +44,7 @@ body{
 
 
 #celestialBody{
+    animation: justMove linear infinite 2s alternate;
     position: relative;
     overflow: hidden;
     z-index: 3;
@@ -136,43 +137,27 @@ div.c1{
 }
 
 
-.moon{
-    transform: translateX(150px) rotate(360deg);
-    animation: celestialBodyToMoon 5s alternate forwards;
-}
-.sun{
-    animation: celestialBodyToSun 5s alternate forwards;
-}
-
-#celestialBody:hover > .whole{
-    background-color: var(--moon-whole);
-    transition: background-color linear 3s;
-}
 
 
-#base:hover{
-    background-color: #333542;
-    transition: background-color 2.9s linear;
+.move-right{
+    animation: celestialBodyToMoon linear 2s forwards;
+}
+.move-left{
+    animation: celestialBodyToSun linear 2s forwards;
 }
 
-@keyframes celestialBodyToMoon {
+@keyframes justMove {
     from{
-        transform: translateX(0);
+        transform: translateX(0) rotate(0);
     } to{
-        transform: translateX(150px) rotate(360deg);
-        background-color: var(--moon-bc);
-        transition: transform linear 1s, background-color linear .4s;
+        transform: translateX(150px) rotate(360deg);   
 
+        background-color: var(--moon-bc);
+        animation: changeBC linear 200ms;
     }
 }
-
-@keyframes celestialBodyToSun {
-    from{
-        transform: translateX(150px) rotate(0deg);
-    } to{
-        transform: translateX(0px) rotate(360deg);
-        background-color: var(--moon-bc);
-        transition: transform linear 1s, background-color linear .4s;
-
+@keyframes changeBC {
+    from{}to{
+        background-color: red;
     }
 }

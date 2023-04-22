@@ -62,14 +62,14 @@ body{
 .cloud{
     z-index: 2;
     border-radius: 50%;
-    background-color: rgb(230, 237, 245);   
+    background-color: rgb(230, 237, 245); 
+    position: absolute;  
 }
 
 
 .c1{
     width: 60px;
     height: 60px;
-    position: absolute;
     right: -20px;
     bottom: 10px;
 }
@@ -77,7 +77,6 @@ body{
 .c2{
     width: 60px;
     height: 60px;
-    position: absolute;
     right: 10px;
     bottom: -24px;
 }
@@ -85,39 +84,38 @@ body{
 .c3{
     width: 60px;
     height: 60px;
-    position: absolute;
     right: 55px;
     bottom: -30px;
 }
 .c4{
     width: 40px;
     height: 40px;
-    position: absolute;
     right: 105px;
     bottom: -25px;
 }
 .c5{
     width: 40px;
     height: 40px;
-    position: absolute;
     right: 130px;
     bottom: -15px;
 }
 .c6{
     width: 75px;
     height: 40px;
-    position: absolute;
     right: 152px;
     bottom: -20px;
 }
 
 .star{
     position: absolute;
-    z-index: -3;
+    z-index: 5;
     width: 30px;
     height: 30px;
+    /* transform: rotate(45deg); */
+    box-shadow: inset 3px 0px 4px 0px rgba(58, 47, 47, 0.969);
     background-color: rgb(235, 32, 32);
 }
+
 
 .whole{
     position: absolute;

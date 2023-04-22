@@ -64,54 +64,39 @@ body{
     border-radius: 50%;
     background-color: rgb(230, 237, 245);   
 }
-div.c1{
-    filter: drop-shadow(-1px -14px .3px rgba(175, 203, 236, 0.866));
+
+.c1{
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 1px;
-    bottom: -1px;
+    right: -20px;
+    bottom: 10px;
 }
 .c2{
     width: 60px;
     height: 60px;
     position: absolute;
-    right: -10px;
-    bottom: 20px;
+    right: 10px;
+    bottom: -24px;
 }
 .c3{
     width: 60px;
     height: 60px;
     position: absolute;
-    right: 40px;
-    bottom: -40px;
+    right: 55px;
+    bottom: -30px;
 }
 .c4{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    right: 38px;
-    bottom: -13px;
-}
-.c5{
-    width: 54px;
-    height: 50px;
-    position: absolute;
-    right: 40px;
-    bottom: 8px;
-}
-.c6{
-    width: 110px;
-    height: 70px;
-    position: absolute;
-    right: 40px;
-    bottom: -15px;
+    right: 105px;
+    bottom: -25px;
 }
 
 
 .whole{
     position: absolute;
-    background-color: none;
     border-radius: 50%;
     border: none;
 }
@@ -156,10 +141,19 @@ div.c1{
 
 @keyframes toLeft{
     from{
-        transform: translateX(150px) rotate(360deg);   
+        transform: translateX(150px) rotate(360deg);
+        transition: tranform 1.2s cubic-bezier(0.23, 1, 0.320, 1);
 
     } to{
         transform: translateX(0px) rotate(0deg);   
 
+    }
+}
+
+@keyframes clouding {
+    from{
+        
+    }to{
+        bottom: -40px;
     }
 }

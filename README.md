@@ -5,7 +5,7 @@ Poderia ter utilizado SVG, seria mais simples, prático e eficiente. Porém, eu 
 <ul>
   <li> https://imagecolorpicker.com/ </li>
   <li> https://www.cssportal.com/css-cubic-bezier-generator/ </li>
-  <li> https://imagecolorpicker.com/ </li>
+  <li> https://icons8.com.br/icons/set/favicon </li>
 </ul>
 
 [PROJETO AINDA NÃO TERMINADO]

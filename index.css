@@ -150,7 +150,6 @@ div.c1{
         transform: translateX(0) rotate(0);
     } to{
         transform: translateX(150px) rotate(360deg);   
-
         background-color: var(--moon-bc);
     }
 }

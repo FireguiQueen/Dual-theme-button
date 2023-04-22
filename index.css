@@ -165,10 +165,3 @@ body{
     }
 }
 
-@keyframes clouding {
-    from{
-        
-    }to{
-        bottom: -40px;
-    }
-}

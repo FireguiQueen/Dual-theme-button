@@ -1,5 +1,5 @@
 # Hmm
-Poderia ter utilizado SVG, seria mais simples, prático e eficiente. Porém, eu escolhi fazer a mão, para treinar meu CSS. 
+Poderia ter utilizado SVG, seria mais simples, prático e eficiente. Porém eu escolhi fazer a mão
 
 ## Ferramentas que eu usei
 <ul>

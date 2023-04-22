@@ -140,24 +140,28 @@ div.c1{
 
 
 .move-right{
-    animation: celestialBodyToMoon linear 2s forwards;
+    animation: gRight linear 2s forwards;
 }
 .move-left{
-    animation: celestialBodyToSun linear 2s forwards;
+    animation: gLeft linear 2s forwards;
 }
 
-@keyframes justMove {
+@keyframes gRight{
     from{
         transform: translateX(0) rotate(0);
     } to{
         transform: translateX(150px) rotate(360deg);   
 
         background-color: var(--moon-bc);
-        animation: changeBC linear 200ms;
     }
 }
-@keyframes changeBC {
-    from{}to{
-        background-color: red;
+
+
+@keyframes gLeft{
+    from{
+        transform: translateX(150px) rotate(360deg);   
+        background-color: var(--moon-bc);
+    } to{
+        transform: translateX(0) rotate(360deg);
     }
 }

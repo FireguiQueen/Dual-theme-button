@@ -64,6 +64,14 @@ body{
     border-radius: 50%;
     background-color: rgb(230, 237, 245);   
 }
+#cudeniga{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    filter: drop-shadow(-1px -14px 23px rgb(175, 203, 236));
+
+}
 
 .c1{
     width: 60px;
@@ -94,6 +102,13 @@ body{
     bottom: -25px;
 }
 
+.star{
+    position: absolute;
+    z-index: -3;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(235, 32, 32);
+}
 
 .whole{
     position: absolute;

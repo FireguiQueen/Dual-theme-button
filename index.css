@@ -44,7 +44,6 @@ body{
 
 
 #celestialBody{
-    animation: justMove linear infinite 2s alternate;
     position: relative;
     overflow: hidden;
     z-index: 3;
@@ -140,13 +139,13 @@ div.c1{
 
 
 .move-right{
-    animation: gRight linear 2s forwards;
+    animation: toRight ease-in 300ms forwards;
 }
 .move-left{
-    animation: gLeft linear 2s forwards;
+    animation: toLeft ease-in 300ms forwards;
 }
 
-@keyframes gRight{
+@keyframes toRight{
     from{
         transform: translateX(0) rotate(0);
     } to{
@@ -156,12 +155,12 @@ div.c1{
     }
 }
 
-
-@keyframes gLeft{
+@keyframes toLeft{
     from{
         transform: translateX(150px) rotate(360deg);   
-        background-color: var(--moon-bc);
+
     } to{
-        transform: translateX(0) rotate(360deg);
+        transform: translateX(0px) rotate(0deg);   
+
     }
 }

@@ -1,7 +1,7 @@
 const mainElement = document.querySelector('#celestialBody');
 
 mainElement.addEventListener('click', function (){
-    if (mainElement.classList.contains('move-left')){
+    if (mainElement.classList.contains('move-right')){
         mainElement.classList.remove('move-right');
         mainElement.classList.add('move-left')
     } else{

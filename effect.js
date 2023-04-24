@@ -2,6 +2,7 @@ const mainElement = document.querySelector('#celestialBody');
 
 const whole = document.querySelectorAll('.whole');
 const cloud = document.querySelectorAll('.cloud');
+const stars = document.querySelectorAll('.star');
 const backGround = document.querySelector('#base');
 
 mainElement.addEventListener('click', function (){
@@ -37,6 +38,9 @@ mainElement.addEventListener('click', function (){
         base.style.transition = 'background-color linear 200ms'
         mainElement.classList.remove('move-left');
         mainElement.classList.add('move-right');
-
+        
+        stars.forEach(e =>{
+            e.style.backgroundColor = 'white';
+        })
     }
 });

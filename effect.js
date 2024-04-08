@@ -3,7 +3,7 @@ const mainElement = document.querySelector('#celestialBody');
 const whole = document.querySelectorAll('.whole');
 const cloud = document.querySelectorAll('.cloud');
 const stars = document.querySelectorAll('.star');
-const backGround = document.querySelector('#base');
+const background = document.querySelector('#base');
 
 mainElement.addEventListener('click', function (){
     if (mainElement.classList.contains('move-right')){

@@ -1,3 +1,7 @@
+TO-DO:
+MELHORAR O README
+
+
 # Hmm
 Poderia ter utilizado SVG, seria mais simples, prático e eficiente. Porém eu escolhi fazer a mão
 

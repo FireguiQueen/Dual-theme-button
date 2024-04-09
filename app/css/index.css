@@ -1,10 +1,13 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: linear-gradient(rgb(222, 220, 247), rgba(134, 134, 228, 0.394));
+
+body
+{
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +16,16 @@ body{
     width: 100%;
 }
 
-:root{
+.dark
+{
+
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+    transition: tranform linear;
+
+}
+
+:root
+{
     /* base */
     --base-width: 255px;
     --base-height: 100px;
@@ -28,7 +40,8 @@ body{
     --moon-whole: #838794cd;
 }
 
-#base{
+#base
+{
     position: relative;
     width: var(--base-width);
     height: var(--base-height);
@@ -43,7 +56,8 @@ body{
 }
 
 
-#celestialBody{
+#celestialBody
+{
     position: relative;
     overflow: hidden;
     z-index: 3;
@@ -59,7 +73,8 @@ body{
     -10px 0 1px 100px #ffffff16;
 }
 
-.cloud{
+.cloud
+{
     z-index: 2;
     border-radius: 50%;
     background-color: rgb(230, 237, 245); 
@@ -67,39 +82,49 @@ body{
 }
 
 
-.c1{
+.c1
+{
     width: 60px;
     height: 60px;
     right: -20px;
     bottom: 10px;
 }
 
-.c2{
+.c2
+{
     width: 60px;
     height: 60px;
     right: 10px;
     bottom: -24px;
 }
 
-.c3{
+.c3
+
+{
     width: 60px;
     height: 60px;
     right: 55px;
     bottom: -30px;
 }
-.c4{
+
+.c4
+{
     width: 40px;
     height: 40px;
     right: 105px;
     bottom: -25px;
 }
-.c5{
+
+.c5
+{
     width: 40px;
     height: 40px;
     right: 130px;
     bottom: -15px;
 }
-.c6{
+
+.c6
+{
     width: 75px;
     height: 40px;
     right: 152px;
@@ -108,25 +133,32 @@ body{
 
 
 
-.whole{
+.whole
+{
     position: absolute;
     border-radius: 50%;
     border: none;
 }
-.w1{
+
+.w1
+{
     width: 28.5px;
     height: 28.5px;
     left: 13px;
     bottom: 23px;
 }
-.w2{   
+
+.w2
+{
     left: 50%;
     transform: translateX(-50%);
     top: 10px;
     width: 17.5px;
     height: 17.5px; 
 }
-.w3{
+
+.w3
+{
     right: 20%;
     bottom: 20px;
     width: 15.5px;
@@ -134,36 +166,43 @@ body{
 }
 
 
-
-
-.move-right{
+.move-right
+{
     animation: toRight ease-in 300ms forwards;
 }
-.move-left{
+.move-left
+{
     animation: toLeft ease-in 300ms forwards;
 }
 
-@keyframes toRight{
-    from{
+
+@keyframes toRight
+{
+    from
+    {
         transform: translateX(0) rotate(0);
-    } to{
-        transform: translateX(145px) rotate(360deg);   
-        background-color: var(--moon-bc);
-    }
+    } to
+        {
+            transform: translateX(145px) rotate(360deg);
+            background-color: var(--moon-bc);
+        }
 }
 
-@keyframes toLeft{
-    from{
+@keyframes toLeft
+{
+    from
+    {
         transform: translateX(150px) rotate(360deg);
         transition: tranform 1.2s cubic-bezier(0.23, 1, 0.320, 1);
 
-    } to{
-        transform: translateX(0px) rotate(0deg);   
-
-    }
+    } to
+        {
+            transform: translateX(0px) rotate(0deg);
+        }
 }
 
-.star{
+.star
+{
     animation: staring linear 800ms infinite;
     position: absolute;
     height: 10px;
@@ -171,10 +210,13 @@ body{
     margin: 10px;
 }
 
-@keyframes staring{
-    from{
+@keyframes staring
+{
+    from
+    {
         filter: opacity(0);
-    } to{
-        filter: opacity(1);
-    }
+    } to
+        {
+            filter: opacity(1);
+        }
 }

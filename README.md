@@ -1,15 +1,9 @@
-TO-DO:
-MELHORAR O README
+# Dual Theme Button 
+A nice button to switch between the two themes (white an dark) in page. 
+
+## Tools
++ [https://imagecolorpicker.com/](aaa) 
++ https://www.cssportal.com/css-cubic-bezier-generator/ 
++ https://icons8.com.br/icons/set/favicon
 
 
-# Hmm
-Poderia ter utilizado SVG, seria mais simples, prático e eficiente. Porém eu escolhi fazer a mão
-
-## Ferramentas que eu usei
-<ul>
-  <li> https://imagecolorpicker.com/ </li>
-  <li> https://www.cssportal.com/css-cubic-bezier-generator/ </li>
-  <li> https://icons8.com.br/icons/set/favicon </li>
-</ul>
-
-[PROJETO AINDA NÃO TERMINADO]

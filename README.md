@@ -1,6 +1,8 @@
 # Dual Theme Button 
 A nice button to switch between the two themes (white an dark) in page. 
 
+<br>
+
 ## ✨ Project
 
 ### ☀️ Light theme 

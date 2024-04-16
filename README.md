@@ -2,10 +2,10 @@
 A nice button to switch between the two themes (white an dark) in page. 
 
 ### Light
-![Light-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/fd0e370e-6782-4b5a-afff-85ae263c1b01)
+![Light-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/e0acbea5-a29a-4a23-bf65-299674a9d2e9)
 
 ### Dark
-![dark-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/fc95f520-d135-4087-b7d7-cb8c3def91ce)
+![Dark-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/ed94d59e-722a-494d-9e2d-444b2f723b89)
 
 
 ## Tools

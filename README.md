@@ -3,10 +3,10 @@ A nice button to switch between the two themes (white an dark) in page.
 
 ## ✨ Project
 
-### ☀️ Light theme
+### Light theme ☀️
 ![Light-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/e0acbea5-a29a-4a23-bf65-299674a9d2e9)
 
-### 🌕 Dark theme
+### Dark theme 🌕 
 ![Dark-theme](https://github.com/FireguiQueen/Dual-theme-button/assets/98475125/ed94d59e-722a-494d-9e2d-444b2f723b89)
 
 

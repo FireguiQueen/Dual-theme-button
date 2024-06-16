@@ -25,6 +25,7 @@ ___
 ```
   git clone https://github.com/FireguiQueen/Dual-theme-button.git
 ```
+<a href="https://github.com/FireguiQueen/Dual-theme-button/archive/refs/heads/main.zip">or download</a>
 
 
 

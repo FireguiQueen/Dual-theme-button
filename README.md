@@ -14,9 +14,16 @@ This project was built using only HTML, CSS and JavaScript, with no frameworks, 
 ![dark-theme](./src/assets/images/dark-theme.png)
 
 
-### Tools
+### :wrench: Tools
 + [Image Color Picker](https://imagecolorpicker.com/) 
 + [Cubiz Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) 
 + [Favicons](https://icons8.com.br/icons/set/favicon)
+
+___
+
+### :octocat: Cloning 
+`git clone `
+
+
 
 

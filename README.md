@@ -22,7 +22,9 @@ This project was built using only HTML, CSS and JavaScript, with no frameworks, 
 ___
 
 ### :octocat: Cloning 
-- ```git clone https://github.com/FireguiQueen/Dual-theme-button.git```
+- ```
+  git clone https://github.com/FireguiQueen/Dual-theme-button.git
+```
 
 
 

@@ -25,7 +25,7 @@ ___
 ```
   git clone https://github.com/FireguiQueen/Dual-theme-button.git
 ```
-<a href="https://github.com/FireguiQueen/Dual-theme-button/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Download-edge&logoColor=white) </a>
+<a href="https://github.com/FireguiQueen/Dual-theme-button/archive/refs/heads/main.zip"> ![download](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Download-Download&logoColor=white) </a>
 
 
 
